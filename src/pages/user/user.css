@@ -1,0 +1,168 @@
+.user {
+  flex: 4;
+  padding: 20px;
+}
+
+.userTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userTitle {
+  color: rgb(36, 63, 77);
+}
+
+.userAddButton {
+  width: 80px;
+  border: none;
+  padding: 8px;
+  color: rgba(163, 187, 200);
+  background: rgb(67, 99, 114);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.userContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.userShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(36, 63, 77, 0.19);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(36, 63, 77, 0.19);
+  box-shadow: 1px 1px 3px 1px rgba(36, 63, 77, 0.19);
+}
+
+.userUpdate {
+  flex: 2;
+  padding: 20px;
+  margin-left: 20px;
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(36, 63, 77, 0.19);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(36, 63, 77, 0.19);
+  box-shadow: 1px 1px 3px 1px rgba(36, 63, 77, 0.19);
+}
+
+.userShowTop {
+  display: flex;
+  align-items: center;
+}
+
+.userShowImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.userShowUsername {
+    font-weight: 600;
+    color: rgb(36, 63, 77);
+}
+
+.userShowUser {
+    font-weight: 500;
+    color: rgba(163, 187, 200);
+}
+
+.userShowBottom {
+    margin-top: 20px;
+}
+
+.userShowTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(163, 187, 200);
+}
+
+.userShowInfo {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: rgb(36, 63, 77);
+}
+
+.userShowIcon {
+    font-size: 16px !important;
+}
+
+.userShowInfoTitle {
+    margin-left: 10px;
+}
+
+.userUpdateTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(36, 63, 77);
+}
+
+.userUpdateForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.userUpdateItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.userUpdateItem > label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.userUpdateInput {
+    border: none; 
+    width: 250px;
+    height: 30px;
+    padding: 5px 10px;
+    outline: none;
+    color: rgba(36, 63, 77);
+    background: rgba(36, 63, 77, 0.3);
+    border-bottom: 1px solid rgba(36, 63, 77);
+}
+
+.userUpdateRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userUpdateUpload {
+    display: flex;
+    align-items: center;
+}
+
+.userUpdateImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.userUpdateIcon {
+    cursor: pointer;   
+    color: rgb(36, 63, 77);
+}
+
+.userUpdateButton {
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background: rgba(36, 63, 77);
+    color: rgba(163, 187, 200);
+}

@@ -1,0 +1,76 @@
+.newUser {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.newUserTitle {
+    color: rgba(36, 63, 77);
+    margin-bottom: 20px;
+}
+
+.newUserForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.newUserItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.newUserItem > label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(36, 63, 77);
+}
+
+.newUserItem > input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid rgba(36, 63, 77);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.newUserGender > input {
+    margin-top: 15px;
+}
+
+.newUserGender > label {
+    margin: 10px;
+    font-size: 18px;
+    color: rgba(36, 63, 77);
+}
+
+.newUserSelect {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.newUserButton {
+    width: 200px;
+    border: none;
+    background: rgba(36, 63, 77);
+    color: rgba(163, 187, 200);
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
